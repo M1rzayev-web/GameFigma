@@ -1,0 +1,521 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  /* border: 1px solid white;   */
+}
+body {
+  background: #011425;
+}
+.container {
+  max-width: 1920px;
+  border: 1px solid red;
+}
+.header {
+  width: 100%;
+  height: 1273px;
+  /* padding: 0 80px; */
+  background-image: url("/Images/Background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.navbar {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  padding: 0 80px;
+
+}
+.navLeft {
+  width: 50%;
+  height: 100%;
+  margin-left: 0;
+}
+.navLeft_link {
+  width: 100%;
+  height: 70px;
+  padding-top: 35px;
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navLeft_link > a {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  background: radial-gradient(
+    73.08% 73.08% at 50% -0.51%,
+    #fcdaff 0%,
+    #cf52fe 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.navRight {
+  width: 400px;
+  height: 100%;
+  margin-right: 0;
+}
+.navRight_link {
+  width: 100%;
+  height: 70px;
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+}
+.navRight_link > a {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Press Start 2P", cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  background: radial-gradient(
+    73.08% 73.08% at 50% -0.51%,
+    #fcdaff 0%,
+    #cf52fe 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-right: 0;
+}
+.navRight > img {
+  display: flex;
+  margin-right: 0;
+}
+.navList{
+    width: 300px;
+ height: 150px;
+ display: grid;
+ align-items: center;
+ margin-left: 0;
+ justify-content: flex-start;
+}
+.navItem{
+    width: 100%;
+}
+.navItem>a{
+    font-family: "Press Start 2P", cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'liga' off;
+background: linear-gradient(233.38deg, #FCDAFF -32.6%, #CF52FE 59.62%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+left: 0;
+}
+.navList_Right{
+    width: 300px;
+    height: 80px;
+    display: grid;
+    align-items: center;
+    margin-right: 0;
+    justify-content: flex-end;
+    /* margin-top: 20px; */
+}
+.navItemRight{
+  width: 100%;
+  height: 20px;
+  margin-right: 0;
+  display: flex;
+}
+.navItemRight>a{
+    list-style: none;
+    text-decoration: none;
+    font-family: "Press Start 2P", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    background: radial-gradient(
+      73.08% 73.08% at 50% -0.51%,
+      #fcdaff 0%,
+      #cf52fe 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-feature-settings: 'liga' off;
+    background: linear-gradient(100.99deg, #FCDAFF 4.61%, #CF52FE 53.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-right: 0;
+}
+.hero{
+    width: 100%;
+    height: 1163px;
+  padding: 0 80px;
+
+}
+.heroTop{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.heroText{
+    width: 350px;
+    min-height: 200px;
+    margin-left: 20%;
+
+}
+.heroText1{
+    width: 347px;
+    background-repeat: no-repeat;
+    height: 180px;
+    text-align: center;
+    padding-top: 55px;
+    background-image: url("/Images/frame.png");
+}
+.heroText1>h3{
+    font-style: normal;
+    font-family: "Press Start 2P", cursive;
+font-weight: 500;
+font-size: 18px;
+line-height: 120%;
+padding: 0 25px;
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+background: radial-gradient(73.08% 73.08% at 50% -0.51%, #69FEDB 0%, #11E5B3 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.heroText1>p{
+    font-style: normal;
+    font-family: 'Exo 2', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: #ABFFEB;
+padding: 10px 50px;
+}
+.heroText2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.heroText2>p{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 120%;
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+background: radial-gradient(73.08% 73.08% at 50% -0.51%, #69FEDB 0%, #11E5B3 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+margin-left: 25px;
+}
+.heroText2>span{
+    margin-right: 0;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-circle{
+    font-size: 7px;
+    color: #11E5B3;
+    cursor: pointer;
+}
+.heroName{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    overflow-y: ;
+    align-items: center;
+    justify-content: center;
+}
+.heroName>h2{
+    font-family: 'Cyberpunk';
+font-style: normal;
+font-weight: 400;
+font-size: 320px;
+line-height: 88px;
+text-align: center;
+letter-spacing: -0.175em;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+mix-blend-mode: normal;
+}
+.heroBtnDiv{
+    max-width: 1100px;
+    height: 250px;
+    margin-top: 20px;
+}
+.heroBtnTop>p{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 120%;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+}
+.heroBtnTop{
+    width: 500px;
+   margin-right: 0;
+}
+.heroBtnBottom{
+    width: 270px;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+.heroBtnBottom>p{
+    padding: 0 35px;
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+text-align: center;
+font-feature-settings: 'liga' off;
+color: rgba(255, 255, 255, 0.8);
+}
+.heroBtnBottom>p>span{
+    color: rgb(255, 255, 255);
+}
+
+.heroBtnBottom>button{
+    width: 100%;
+    height: 58px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url("/Images/button.png");
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    font-family: 'Font Over';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 100%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+font-feature-settings: 'liga' off;
+color: #11E5B3;
+cursor: pointer;
+}
+.main{
+    width: 100%;
+}
+.section1{
+    width: 100%;
+    min-height: 1000px;
+padding: 0 80px;
+
+}
+.section1List{
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+.section1Item{
+    width: 440px;
+height: 875px;
+margin: 0 2px;
+background-repeat: no-repeat;
+border: 4px solid #224F73;
+}
+.section1Item:hover {
+border: 5px solid #11E5B3;
+    background-image: url("/Images/bgSection1.png");
+}
+.section1Img1{
+    /* width: 100%; */
+    padding: 20px 25px 0 25px;
+}
+.section1ImgLeft{
+    display: none;
+}
+.section1ImgRight{
+    display: none;
+}
+.section1Img2Div{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.section1Img2{
+    width: 100%;
+    height: 520px;
+    margin-top: -140px;
+}
+.section1Name{
+    width: 374px;
+    height: 108px;
+    padding: 10px 25px;
+    border-top: 5px solid #053245;
+    position: relative;
+    background-image: url("/Images/Rectangle1.png");
+}
+.section1Name>h4{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 100%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.section1Clan{
+/* border: 1px solid white; */
+width: 374px;
+height: 184px;
+position: relative;
+padding: 20px 25px 0 25px;
+margin-top: 5px;
+border-top: 5px solid #053245;
+    background-repeat: no-repeat;
+    background-image: url("/Images/Rectangle3.png");
+}
+.sectio1ClanLeft{
+    width: 100%;
+    display: flex;
+    margin: 5px 0;
+}
+.sectio1ClanLeft>img{
+margin-left: 0;
+width: 40px;
+height: 40px;
+}
+
+.sectio1ClanLeft>li>h4{
+    font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #11E5B3;
+}
+
+.sectio1ClanLeft>li>p{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 280px;
+    
+}
+.section1Text{
+    width: 374px;
+height: 154px;
+margin-top: 10px;
+    background-image: url("/Images/Rectangle4.png");
+}
+.section1Text>span{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-quote-right{
+    width: 60px;
+    height: 100%;
+padding: 10px 0 10px 20px;
+    color: #11E5B3;
+    margin-left: 0;
+    font-size: 18px;
+}
+.section1Text>p{
+    width: 311px;
+height: 50px;
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #FFFFFF;
+margin: 0px 0 0 21px;
+}
+
+.section2{
+    width: 100%;
+   min-height: 350px;
+}
+.section2>p{
+    width: 490px;
+height: 82px;
+margin-bottom: 40px;
+font-family: 'Exo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 120%;
+text-align: center;
+color: #FFFFFF;
+}
+.section2>div{
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.section3{
+    width: 100%;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url("/Images/section3Images.png");
+}
